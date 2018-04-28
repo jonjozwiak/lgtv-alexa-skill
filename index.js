@@ -1,7 +1,14 @@
 "use strict";
 
 const API = require("./lgtv-api.json");
-const CONFIG = require("./config.json");
+//const CONFIG = require("./config.json");
+// Read variables from env
+const CONFIG = {
+  tvMAC: process.env.tvMAC,
+  tvIP: process.env.tvIP,
+  tvNAME: process.env.tvNAME
+};
+
 const PACKAGE = require("./package.json");
 
 const MyLGTV = require("./LGTVbridge.js");

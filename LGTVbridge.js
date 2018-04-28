@@ -1,7 +1,14 @@
 "use strict";
 
 const API = require("./lgtv-api.json");
-const CONFIG = require("./config.json");
+//const CONFIG = require("./config.json");
+// Read variables from env
+const CONFIG = {
+  tvMAC: process.env.tvMAC,
+  tvIP: process.env.tvIP,
+  tvNAME: process.env.tvNAME
+};
+
 const START_PORT = 11000;
 const URL = 'ws://' + CONFIG.tvIP + ':3000'
 
