@@ -58,6 +58,26 @@ It's possible to add your own application if you know the appID (and if you don'
 Add your application on `apps.json`, restart the Alexa bridge and run the device discovery on Alexa app on your mobile or at the 
 [Alexa website](https://alexa.amazon.com).
 
+#### Apps examples
+
+- anyplace.tv
+- cinemanow
+- com.webos.app.browser
+- com.webos.app.camera
+- com.webos.app.hdmi1
+- com.webos.app.hdmi2
+- com.webos.app.livetv
+- com.webos.app.miracast
+- com.webos.app.notificationcenter
+- com.webos.app.smartshare
+- com.webos.app.tvuserguide
+- crackle
+- netflix
+- youtube.leanback.v4
+
+#### Notes 
+Is there a 'channel' setting or 'volume' setting that can be implemented? 
+
 ### Thanks to
 - [hobbyquacker, lgtv2 library](https://github.com/hobbyquaker/lgtv2)
 - [neil-morrison-44, forked project](https://github.com/neil-morrison44/lg-alexa-node)
